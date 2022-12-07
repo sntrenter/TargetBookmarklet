@@ -1,4 +1,4 @@
-# Want to use more coupons?
+# Want to use more coupons? (WIP WARNING)
 
 
 [Go here](https://sntrenter.github.io/SchnucksBookmarklet/)
