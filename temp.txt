@@ -1,0 +1,10 @@
+removed from package.json
+
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+
+  was causing error
