@@ -43,7 +43,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
           className="App-link"
-          href="https://github.com/sntrenter/SchnucksBookmarklet"
+          href="https://github.com/sntrenter/targetbookmarklet"
         >
           You can also check it out on Github!
         </a>

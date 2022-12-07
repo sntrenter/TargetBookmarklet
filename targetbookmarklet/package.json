@@ -1,7 +1,7 @@
 {
-  "name": "schnucksbookmarklet",
+  "name": "targetbookmarklet",
   "version": "0.1.0",
-  "homepage": "https://sntrenter.github.io/SchnucksBookmarklet/",
+  "homepage": "https://sntrenter.github.io/targetbookmarklet/",
   "private": true,
   "dependencies": {
     "@monaco-editor/react": "^4.4.5",
