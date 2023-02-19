@@ -43,7 +43,10 @@ function App() {
         </a>
         <p>
           (P.S. you really shouldn't just run random code from the internet, but
-          the source is below and I've included a gif of it working 🙂)(P.S.S Target doesn't register the first "save offer" click for some reason when done automatically, you will need to re click it)
+          the source is below and I've included a gif of it working 🙂)(P.S.S
+          Target doesn't register the first "save offer" click for some reason
+          when done automatically, you will need to re click it or reload the
+          page before activating the bookmarklet)
         </p>
         <a
           target="_blank"
