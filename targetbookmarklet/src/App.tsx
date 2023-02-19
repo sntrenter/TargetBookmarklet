@@ -19,21 +19,21 @@ function App() {
       <header className="App-header">
         <img src={schnucks} className="App-logo" alt="logo" />
         <p>
-          Drag this link to your bookmarks bar and click it when you are on the
+          Drag the bellow link to your bookmarks bar and click it when you are
+          on the
           <a
             target="_blank"
             rel="noopener noreferrer"
             className="App-link"
-            href="https://nourish.schnucks.com/web-ext/coupons"
+            href="https://www.target.com/circle/offers"
           >
-            Schnucks coupon page.
-          </a>
+            Target Offers page
+          </a>{" "}
+          (it can only click the "for you " promotions because target limits the
+          number of coupons you can snip 😢).
         </p>
-        <a
-          className="App-link"
-          href="javascript:(function()%7Blet%20buttons%20%3D%20document.getElementsByClassName('btn%20item-btn%20bold-font%20schnucks-red-bg')%0Afor%20(let%20i%20%3D%200%3B%20i%20%3C%20buttons.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20buttons%5Bi%5D.click()%3B%0A%7D%7D)()%3B"
-        >
-          Schnuckscoupon
+        <a href="javascript:(function()%7Bvar%20btn%20%3D%20document.querySelector('a%5Bhref%3D%22%2Fcircle%2Foffers%2Frecommended%22%5D')%3B%0A%20%20if%20(btn)%20%7B%0A%20%20%20%20btn.click()%3B%0A%20%20%7D%20else%20%7B%0A%20%20%20%20console.log(%22personal%20offers%20button%20not%20found%22)%3B%0A%20%20%7D%0A%0Afunction%20clickButtons(btns)%20%7B%0A%20%20for%20(var%20i%20%3D%200%3B%20i%20%3C%20btns.length%3B%20i%2B%2B)%20%7B%0A%20%20%20%20setTimeout(function(btn)%20%7B%0A%20%20%20%20%20%20btn.click()%3B%0A%20%20%20%20%7D%2C%20i%20*%201000%2C%20btns%5Bi%5D)%3B%20%2F%2F%20Add%201%20second%20delay%20for%20each%20iteration%0A%20%20%7D%0A%7D%0A%0Avar%20delayInMilliseconds%20%3D%201000%3B%20%2F%2F1%20second%0Avar%20btns%20%3D%20document.querySelectorAll('button%5Bdata-test%3D%22button-default%22%5D')%3B%0AclickButtons(btns)%3B%7D)()%3B">
+          TargetPromoBookmarklet
         </a>
         <p>
           (P.S. you really shouldn't just run random code from the internet, but
